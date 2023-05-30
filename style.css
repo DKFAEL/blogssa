@@ -1,0 +1,167 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    
+}
+
+.caixa-principal {
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    
+    
+}
+
+.title {
+    color: rgb(18, 18, 187);
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 10px;
+}   
+.title span {
+    color: rgb(251, 143, 3);
+}
+
+.header{
+    
+   list-style: none;
+   display: inline-block;
+   font-size: 1.7rem;
+   margin-right: 30px;
+   cursor: pointer;
+}
+
+
+.link-menu {
+    text-decoration: none;
+   color: rgb(18, 18, 187);
+}
+
+.link-menu:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.info {
+    width: 100%;
+    height: 40%;
+    background-color: #186aaf;
+    position: absolute;
+    top: 15%;
+   
+}
+
+
+.info h1 {
+    color: white;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    
+}
+#imagem {
+    position: absolute;
+    top: 75%;
+    left: 24%;
+    height:150%;
+    width: 50%;
+}
+
+
+#sobre {
+    display: flex;
+    align-items: center;
+    padding: 120px 100px;
+    color: #545459;
+    font-size: 1.5rem;
+}
+
+.indice {
+    padding: 10px 10px;
+    margin: 0px 50px;
+   font-size: 1.3rem;
+   background-color: #edf3ff;
+    width: 500px;
+ 
+
+}
+.indice li {
+    padding-top: 10px;
+}
+
+.indice a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #444;
+}
+
+.indice h2 {
+    padding-left: 25px;
+    color: #186aaf;
+}
+
+.cultura {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+padding-top: 80px;
+}
+
+.cultura h2 {
+    font-size: 2.5rem;
+    color: #186aaf;
+    font-weight: 600;
+}
+.cultura p {
+    width: 90%;
+    font-size: 1.5rem;
+    color: #545459;
+}
+
+span {
+    color: #186aaf;
+}
+
+.pontos-turisticos {
+    padding: 5px 80px ;
+}
+
+.pontos-turisticos h2 {
+    font-size: 2.5rem;
+    color: #186aaf;
+    font-weight: 600;
+}
+
+.pontos-turisticos h3 {
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #545459;
+}
+
+.pontos-turisticos p {
+    font-size: 1.5rem;
+    color: #545459;
+}
+
+.foto {
+    width:60%;
+    border-radius: 10px
+}
+
+.link {
+    text-decoration: none;
+    color: #186aaf;
+}
